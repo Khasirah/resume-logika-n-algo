@@ -71,3 +71,22 @@ arr = [22,10,15,3,8,2]
 mergerSort(arr)
 print(arr)
 ```
+
+## quick sorting
+
+1. metode sort tercepat
+2. diperkenalkan oleh **CAR Hoare** 
+3. konsepnya membuat bagian2, sort dilakukan perbagian
+4. pemilihan **pivot** merupakan hal yang menentukan apakah algoritma quicksort akan memberikan performa terbaik atau terburuk (Nugrehey)
+5. printsip kerja:
+    1. pilih sembarang elemen kita sebut X
+    2. tempatkan X pada posisi J
+    3. tambahkan elemen yg lebih kecil dari X ke J-1
+    4. tambahkan elemen yg lebih besar dari X ke J+1
+    5. sekarang kita memiliki kumpulan elemen yg lebih kecil dari X dan kumpulan yg lebih besar dari X
+    6. lakukan langkah nomor satu kestiap kumpulan sampai tidak tersisa 1 elemen
+    7. gabungkan kembali elemen2 yg sudah terurutkan tersebut
+
+```python
+
+```
