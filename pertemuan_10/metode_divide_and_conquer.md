@@ -90,3 +90,14 @@ print(arr)
 ```python
 
 ```
+
+## binary search
+
+1. **mencari** sebuah data pada himpunan data-data yang terseusun secara urut
+2. proses dilakukan pertama pada bagian tengah dari elemen himpunan
+3. jika data yang dicari ternyata < elemen bagian atasnya, maka pencarian dilakukan dari bagian tengah ke bawah
+
+## teknik D and C
+
+1. max&min menggunakan teknik D and C
+2. menghasilkan solusi optimal
